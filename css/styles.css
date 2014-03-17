@@ -1,0 +1,172 @@
+body {
+  
+  background: url("../img/bg/bg-1.png");
+  margin-left:auto;
+  margin-right:auto;
+  width:70%;
+  text-shadow: 1px 1px 0px #FFF;
+}
+
+h1, h2, h3, h5, nav li {
+
+  font-family: GloberHeavy;
+}
+
+h1, h3, .quote h2 {
+
+  color: #FFCC38;
+  text-transform: uppercase;
+}
+
+h2, h3, h5, nav li {
+  
+  font-size: .95em;
+  font-family: GloberHeavy;
+}
+
+h2, p, q, a, li {
+
+  color: #000000;
+}
+
+h5, p, q, a, li {
+
+  font-size: .8em;
+}
+
+h5, nav a {
+
+  color: #536C6C;
+}
+
+p, q, a, li {
+
+  font-family: GloberBook;
+}
+
+nav a, .quote q {
+
+  text-transform: lowercase;
+}
+
+h1 {
+  
+  font-size: 2em;
+}
+
+p > q {
+  
+  font-size: 1em; /* 1em == .8em because [q] is the child of [p]  */
+}
+
+a {
+
+  text-decoration: none;
+}
+
+li > a {
+
+  font-size: 1em;
+}
+
+a:hover {
+  
+  color: #FFCC38;
+  font-family: GloberLight;
+  text-shadow: 1px 1px 0px #FFF;
+}
+
+nav li, footer li, footer h2 {
+
+  display: inline;
+}
+
+.banner img[alt*="Stephani"] {
+
+  border-radius: 25%;
+}
+
+.banner img[alt*="Logo"] {
+
+  margin: 0 0 5px 15px;
+}
+
+.banner {
+
+  margin-bottom: 50px;
+}
+
+nav ul {
+
+  margin-left: -15px;
+  padding: 0px;
+}
+
+nav li {
+
+  font-size: 1em;
+  text-align: center;
+  padding: 0px 15px;
+}
+
+.quote h2 {
+  
+  color: #000000;
+}
+
+.quote q {
+
+  font-style: italic;
+}
+
+footer ul {
+
+  padding-left: 0px;
+}
+
+footer li {
+
+  margin: 0px;
+}
+
+footer h2 {
+
+  margin: 0px;
+}
+
+footer img {
+
+  padding: 5px;
+  border-radius: 95%;
+}
+
+footer img:hover {
+
+  background: #FFCC38;
+}
+
+.color-1, .color-2, .color-3, .pattern-1 {
+
+  width: 40px;
+  height: 40px;
+}
+
+.color-1 {
+  
+  background: #FFCC38;
+}
+
+.color-2 {
+  
+  background: #536C6C;
+}
+
+.color-3 {
+  
+  background: #000000;
+}
+
+.pattern-1 {
+
+  border: 1px solid;
+}
